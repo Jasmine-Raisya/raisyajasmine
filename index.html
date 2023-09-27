@@ -1,0 +1,137 @@
+<html>
+<head>
+    <!--Style-->
+    <style>
+        body {
+            background-image: url('https://images.pexels.com/photos/3780104/pexels-photo-3780104.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-repeat: no-repeat;
+        }
+        h1 {
+            font-size: xx-large;
+            color: azure;
+            font-family: fantasy;
+        }
+        label {
+            color:black;
+            font-style: oblique;
+        }
+        h3 {
+            color:azure
+        }
+        legend
+        {
+            background-color: rgb(201, 81, 111);
+            color: black;
+            font-size: larger;
+            padding: 5px 10px;
+        }
+        fieldset{
+            background-color: white;
+        }
+        table, th, td{
+            width:50%;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+        td{background-color:rgb(255, 255, 255);}
+        th{background-color:rgb(201, 81, 111);}
+    </style>
+    <title>HCI ASSIGNMENT-02</title>
+    <center>
+        <h1>HCI ASSIGNMENT-02</h1>
+    </center>
+</head>
+
+
+<body>
+    <center><h3>--Visiting Japan--</h3></center>
+        <form>
+            <fieldset>
+                <legend>Which one of these places you prefer to stay in for your visit to Japan?</legend>
+                <input type="radio" id="city" name="settle" value="c">
+                <label for="city">City Center</label>
+                <br>
+                <input type="radio" id="st" name="settle" value="s">
+                <label for="city">Small Town</label>
+                <br>
+                <input type="radio" id="village" name="settle" value="v">
+                <label for="city">Village</label>
+                <br>
+                <input type="radio" id="isolateddwelling" name="settle" value="i">
+                <label for="isolateddwelling">Isolated Dwelling</label>
+                <br>
+            </fieldset>
+        </form>
+    <br>
+        <form>
+            <fieldset>
+                <legend>What do you absolutely need within walking distance from place of stay?</legend>
+                <input type="checkbox" id="minimarket" name="feature" value="mm">
+                <label for="minimarket">Mini-Market</label>
+                <br>
+                <input type="checkbox" id="bar" name="feature" value="b">
+                <label for="bar">Bar</label>
+                <br>
+                <input type="checkbox" id="publictrans" name="feature" value="pt">
+                <label for="publictrans">Public Transport</label>
+                <br>
+                <input type="checkbox" id="landmark" name="feature" value="lm">
+                <label for="landmark">Landmark</label>
+                <br>
+            </fieldset>
+    </form>
+   
+    <form>
+        <fieldset>
+            <legend>How long is your prefered duration of stay? Please input the estimate dates of your desired visit.</legend>
+            <label for="start">Start of Visit:</label>
+            <input type="date" id="start" name="start-visit" value="2023-09-27" min="2023-09-27"/>
+            <br>
+            <label for="start">End of Visit:</label>
+            <input type="date" id="end" name="end-visit" value="2023-09-29" min="2023-09-29"/>
+        </fieldset>
+    </form>
+
+    <center>
+        <h3>--Pros and Cons of Visiting Japan--</h3>
+        <table>
+           
+            <tr>
+                <th colspan="2">Pros:</th>
+                <th>Cons:</th>
+            </tr>
+            <tr>
+                <td>Incredible Food</td>
+                <td>Friendly People</td>
+                <td>Earthquakes</td>
+            </tr>
+            <tr>
+                <td>Safety</td>
+                <td>Mount Fuji</td>
+                <td>Tsunamis</td>
+            </tr>
+            <tr>
+                <td>Efficient Public Transportation</td>
+                <td>Thrilling Experiences</td>
+                <td>Extreme Weather</td>
+            </tr>
+        </table>
+    </center>
+    <center>
+        <h3>--Top Recommended Site Visits--</h3>
+        <table>
+            <tr>
+                <th colspan="2">Sites Links:</th>
+            </tr>
+            <tr>
+                <th rowspan="2" style="background-color: white;">Must Visit</th>
+                <td><a href="https://r.search.yahoo.com/_ylt=AwrKA459OBRl8qARAtnLQwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1695852798/RO=10/RU=https%3a%2f%2fwww.tsunagujapan.com%2f50-must-visit-places-in-japan-as-chosen-by-a-world-famous-rating-guidebook%2f/RK=2/RS=WMGTEG5vhQ5IKgbzgS25PldVCGg-">World-Famous Rating</a></td>
+              </tr>
+              <tr>
+                <td><a href="https://r.search.yahoo.com/_ylt=AwrKA459OBRl8qARFdnLQwx.;_ylu=Y29sbwNzZzMEcG9zAzUEdnRpZAMEc2VjA3Ny/RV=2/RE=1695852798/RO=10/RU=https%3a%2f%2fwww.planetware.com%2ftourist-attractions%2fjapan-jpn.htm/RK=2/RS=4t8NEcurn5LHfVhMnvWhRlctCjk-">Top-Rated Tourist Attractions</a></td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>
