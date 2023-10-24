@@ -1,0 +1,157 @@
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #bfd0ff;
+  }
+  
+  .left {
+    background-color: #ffffff;
+    padding: 20px;
+    float: left;
+    width: 40%; 
+    min-height: 40%;
+    max-height: 30%;
+  }
+  
+  .main {
+    background-color: #ffffff;
+    padding: 20px;
+    float: left;
+    width: 60%; 
+    min-height: 40%;
+    max-height: 30%;
+  }
+
+  .address {
+    background-color: #bfd0ff;
+    padding: 20px;
+    float: left;
+    width: 30%; 
+}
+  .paymentmethod {
+    background-color: #bfd0ff;
+    padding: 20px;
+    float: left;
+    width: 40%; 
+  }
+  .promo {
+    background-color: #bfd0ff;
+    padding: 20px;
+    float: left;
+    width: 30%; 
+  }
+
+  .submit {
+  background-color: #bfd0ff;
+  padding: 10px;
+  float: left;
+    width: 100%; 
+}
+  
+  /* break point at 800px */
+@media screen and (max-width: 800px) {
+  .left, .main, .address, .paymentmethod, .promo, .submit{
+    width: 100%; 
+  }
+}
+h1 {
+    font-size:5vw;
+    color: black;
+    Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    }
+h2 {
+    color: black;
+    Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    }
+h3 {
+    color: black;
+    Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    }
+p {
+    color: black;
+    Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    }
+
+img {
+    max-width: 70%;
+    height: auto;
+    }    
+table {
+    width: 100%
+}
+</style>
+  
+</head>
+</html>
+<body>
+    <center>
+        <div style="background-color:#ffffff;padding:15px;text-align:center;">
+           <img src="https://cdn-icons-png.flaticon.com/512/4101/4101012.png" style="width:10%"> <h1 style="color: #000000;">Checkout</h1>
+          </div>
+    
+    <div class="left">
+        <picture>
+        <source srcset="https://cf.shopee.co.id/file/60e8318c76e588818ffbe3a10fc08822" media="(max-width: 350px)">
+        <source srcset="https://cf.shopee.co.id/file/60e8318c76e588818ffbe3a10fc08822">
+        <img src="https://cf.shopee.co.id/file/60e8318c76e588818ffbe3a10fc08822">
+    </picture>
+        <!--<img src="https://cf.shopee.co.id/file/60e8318c76e588818ffbe3a10fc08822" style="width:100%">-->
+    </div>
+    </center>
+      <div class="main">
+        <h2>Product Details</h2>
+        <h3>New Condition
+          <br>
+          Price: Rp 150.000
+            <br>
+            Min. Order: 1 Unit
+            <br>
+            Product: Softlens Princess
+            <br>
+            Princess Spanish (known as Olens Spanish)
+            Ready :
+            Spanish Gray ( 0.00 ~ -5.00)
+            Spanish Brown ( 0.00 ~ -5.00)
+            Spanish Green ( Normal )
+            
+            Dia : 14.0mm (Grapich 13.5mm)
+            BC : 8.6mm
+            Water : 48% (Hema Material)
+            Duration : 6 Months
+            Made In Korea
+            
+        </h3>
+      </div>
+
+    <div class="address">
+         <h3>Address:</h3>
+        <input type="text" id="address" name="add">
+</div>
+<div class="paymentmethod">
+    <label for="pay"><h3>Choose a Payment Method:</h3></label> 
+    <select name="pay" id="pay"> 
+        <option value="cod">COD</option> 
+        <option value="ovo">OVO</option> 
+        <option value="gopay">Go-Pay</option> 
+        <option value="mbanking">M-Banking</option> 
+    </select>
+</div>
+<div class="promo">
+    
+    <label for="promo"><h3>Choose a Promo:</h3></label> 
+    <select name="promo" id="promo"> 
+        <option value="free delivery">Free Delivery</option> 
+    </select>
+</div>
+
+<div class="submit">
+  <button type="button" onclick="alert('Your Checkout is a Success! You have applied the promo of free delivery')">Checkout Now!</button>
+</div>
+</div>
+</body>
+</html>
