@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+            body {
+                background-size: cover;
+                background-image: url('https://images.pexels.com/photos/2719301/pexels-photo-2719301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')
+            }
+            table {
+                background-color: rgba(200, 231, 255, 0.7);
+
+            }
+            table, th, td {
+               border-collapse: collapse; border: 2px solid
+            }
+            h1, h3, p {color: rgb(133, 43, 71);}
+            li{color: rgb(133, 43, 71);}
+            
+            * {
+            box-sizing: border-box;
+            }
+            /* For mobile phones: */
+            [class*="col-"] {
+            width: 100%;
+            }
+
+
+            .title {
+                color: rgb(133, 43, 71);
+                background-color: rgba(240, 248, 255, 0.447);
+                padding-top: 10px;
+                padding-bottom: 3px;
+                padding-right: 20%;
+                padding-left: 20%
+            }
+
+            .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            }
+
+            .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            }
+
+            .navbar a:hover {
+            background: #ddd;
+            color: black;
+            }
+
+            .navbar a:active {
+                background-color: #923c9d;
+                 color: white;
+            }
+
+            .main {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px; /* Used in this example to enable scrolling */
+            }
+
+     
+             </style>
+    </head>
+
+    <body>
+
+        <div class="navbar">
+            <a href="#s6" onclick="alert('You are going back to the top of the page');">Home</a>
+            <a href="#s2" onclick="alert('You are accessing About Me Section');">AboutMe</a>
+            <a href="#s3" onclick="alert('You are accessing Social Media Section');">Social Media</a>
+            <a href="#s4" onclick="alert('You are accessing Education Section');">Education</a>
+            <a href="#s5" onclick="alert('You are accessing Skills and Interests Section');">Skills and Interests</a>
+          </div>
+                  
+        <center>
+            <br>
+            <br>
+
+        <div class="title">
+        <h1 background-color: rgba(240, 248, 255, 0.527);">Raisya Jasmine Zahira</h1>
+        </div>
+
+        <table style="height: 90%; width: 100%;border:2px rgb(255, 255, 255); border-width: 2px;" >
+            <tr style="width: 30%;">
+                <th><h3>
+                    <div title="Raisya"><img src="3x4.jpg" width="40%" height="40%" title="Raisya"></div>
+                </h3></th>
+                <th><h1 id="s6">About Me</h1></th>
+            </tr>
+            <tr>
+                <td>
+                    <h3 id="s2">Student ID</h3>
+                </td>
+                <td>
+                    <h3>2702364761</h3>
+                </td>    
+            </tr>
+            <tr>
+                <td>
+                    <h3>About me</h3>
+                </td>
+                <td>
+                    <p>Im the youngest daughter of my family of four.
+                        Im born and raised in South Jakarta. 
+                        Right now, I am pursuing further education 
+                        in Binus International University, enrolled
+                        in the Global Computer Science Class. My hobbies are 
+                        playing the piano, mobile gaming, painting, sketching portraits and 
+                        composing free writing. 
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Gender</h3>
+                </td>
+                <td>
+                    <input type="radio" id="Male" name="gender" value="Male"><label for="Male"><p>Male</p></label>
+                    <br>
+                    <input type="radio" id="Female" name="gender" value="Female" checked="checked"> <label for="Female"><p>Female</p></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3 id="s3">Social Media</h3>
+                </td>
+                <td>
+                <div class="socMed">
+                    <p>
+                        <a href="https://instagram.com/raisyajasminez?igshid=OGQ5ZDc2ODk2ZA==" title: "Instagram"> <img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" width="60px" height="60px">
+
+                        </a>
+                    </p>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <h3 id="s4">Education</h3>
+                </td>
+                <td>
+                    <a href="https://r.search.yahoo.com/_ylt=AwrKAW6v9ApluC0V7KrLQwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1695245616/RO=10/RU=https%3a%2f%2fbinus.ac.id%2f/RK=2/RS=KqHJosS9DXSqMb8KOiGaUcT7tIc-"><img src="http://www.binus.edu/wp-content/uploads/2016/11/logoBINUS.png" width="80px" height="80px"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3 id="s5">Programming Skills</h3>
+                </td>
+                <td>
+
+                    <input type="checkbox" id="l1" name="l2" value="CSS" checked="checked">  
+                    <label for="l1"><p>CSS</p></label><br>                  
+                    <input type="checkbox" id="l2" name="l2" value="JavaScript" checked="checked">
+                    <label for="l2"><p>JavaScript</p></label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Interests</h3>
+                </td>
+                <td>
+                    <ul>
+                        <p>
+                            <li>Piano</li>
+                            <li>Mobile Gaming</li>
+                            <li>Skipping</li>
+                            <li>Composing Music</li>
+                            <li>Composing Poetry</li>
+                            <li>Free Writing</li>
+                            <li>Reading</li>
+                        </p>
+                    </ul>
+                </td>
+            </tr>
+
+        </table>
+    </center>
+<script>
+</script>
+
+</body>
+</html>
